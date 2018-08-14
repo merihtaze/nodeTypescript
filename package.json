@@ -1,0 +1,26 @@
+{
+  "name": "nodetypescript",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js",
+    "lint": "./node_modules/.bin/tslint 'src/**/*.ts'",
+    "lintfix": "./node_modules/.bin/tslint 'src/**/*.ts' --fix"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/http-errors": "^1.6.1",
+    "@types/mysql": "^2.15.4",
+    "@types/node": "^9.6.2",
+    "nodemon": "^1.17.3",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
+  }
+}
